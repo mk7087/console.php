@@ -12,10 +12,10 @@ $console_name = new console();
 
 After that only you call a method in the usual way in PHP.
 These arguments are the same as Javascript.
-Since example exists, also good to look an [exsaple.php](./exsample.php) sourcecode.
+Since example exists, also good to look an [example.php](./example.php) sourcecode.
 ~~~ PHP
-$main_console->log( 'Hello', 'World', '!' );
-$main_console->log( '%cYellow', 'color: yellow;' );
+$console_name->log( 'Hello', 'World', '!' );
+$console_name->log( '%cYellow', 'color: yellow;' );
 ~~~
 
 ## LICENSE
